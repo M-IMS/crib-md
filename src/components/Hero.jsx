@@ -4,9 +4,9 @@ import hero from "../assets/Hero.svg";
 
 const Hero = () => {
   return (
-    <div className="relative border-2 border-red-400">
-      <img src={hero} alt="" className="absolute" />
-      <div className="relative w-full h-auto sm:mt-40 p-5 space-y-8 text-center ">
+    <div className="border-2 border-red-400 ">
+      <img src={hero} alt="" className="" />
+      <div className="w-full h-auto sm:mt-40 p-5 space-y-8 text-center ">
         <h1 className="text-4xl font-bold">Our Biggest Sales Yet...</h1>
         <p className="text-lg font-semibold text-gray-800">
           We are offering massive discounts on all our health plans during our
