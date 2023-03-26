@@ -13,9 +13,9 @@ const NavBar = () => {
       <h1 className="sm:hidden text-3xl font-bold text-blue-500 cursor-pointer z-10">
         LOGO
       </h1>
-      <div className="hidden w-[1037px] h-[84px] mx-auto mt-2 p-5 sm:flex justify-between items-center text-center rounded-3xl border-2">
+      <div className="hidden w-[1037px] h-[84px] bg-white m-auto mt-4 p-5 sm:flex justify-between items-center text-center rounded-3xl border-2">
       <h1 className="text-3xl font-bold text-blue-500 cursor-pointer z-10">
-        LOGO
+        LOGO2-D
       </h1>
         <ul className="flex justify-between items-center gap-5 text-xl text-gray-500 font-semibold">
           <li className="p-2 hover:border-b-2 hover:border-blue-500 cursor-pointer">
@@ -47,7 +47,7 @@ const NavBar = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        className="md:hidden cursor-pointer hover:bg-blue-100 left-100 top-0 z-10"
+        className="md:hidden cursor-pointer hover:bg-blue-100 rounded left-100 top-0 z-10"
       >
         {!nav ? <HiMenuAlt3 size={20} /> : <AiOutlineClose size={20} />}
       </div>
